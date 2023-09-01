@@ -5,11 +5,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Contact</title>
+  <title>Contact</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="normalize.css2">
+  <link rel="stylesheet" type="text/css" href="normalize.css 2">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="apple-touch-icon" sizes="180x180" href="favicon.ico">
@@ -19,11 +19,9 @@
 </head>
 
 <body>
-  <header>
-    <a href="mailto:edda2666@gmail.com">Tell me what brings you here today</a>
-  </header>
 
   <h1>Contact</h1>
+<<<<<<< Updated upstream
   <form action="input" method="post">
     <label>E-mail: </label>
     
@@ -53,39 +51,48 @@
       <input type="submit" value="Send message">
     </label>
   </form>
+=======
+  <ul role="menubar" class="container">
+    <li role="presentation">
+      <a href="index.html" role=" menuitem" class="contact-head">Home</a>
+    </li>
+    <li role="presentation">
+      <a href="about.html" role="menuitem" class="contact-head">About</a>
+    </li>
+  </ul>
+  <p><img src="img/travis.png" class="profile__portrait navigation-list_item navigation-list_item--active"
+    alt="Travis Heldreth Picture"></p>
+>>>>>>> Stashed changes
   <main>
     <nav>
-      <h3>Travis Heldreth</h3>
-      <div>
-        111 Michelangelo Way
-      </div>
-      Paradiso
-      <div role="menubar">
-        <a href="+18042925022" role="menuitem">Call +1 804 292 5022</a>
-      </div>
       <div><a href="mailto:edda2666@gmail.com" role=" menuitem">Email: edda2666@gmail.com</a></div>
 
       <div role="menubar">Skype
         <a href="skype:hello.travisheldreth" role="menuitem">hello.travisheldreth </a>
       </div>
-
-
     </nav>
+
+
   </main>
 
-  <footer>
-    <ul role="menubar">
-      <li role="presentation">
-        <a href="index.html" role=" menuitem">Home</a>
-      </li>
-      <li role="presentation">
-        <a href="about.html" role="menuitem">About Me</a>
-      </li>
-    </ul>
-  </footer>
-  <script src="js/tota11y.min.js"></script>
-  <a href="#">Default Link</a>
-  <button class="primary_button" type="button">Default Button</button>
+  <form>
+
+    <label class="label">Message:
+      Max 200 Characters
+    </label>
+
+    <label class="grid_item">
+      <textarea class="message" maxlength="300"></textarea>
+    </label>
+    <label>
+      <input type="submit" value="Send message">
+    </label>
+  </form>
+
 </body>
+
+<script src="js/tota11y.min.js"></script>
+
+
 
 </html>

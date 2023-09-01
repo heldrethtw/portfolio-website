@@ -5,12 +5,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio About</title>
+  <title>About</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
   <link rel="apple-touch-icon" sizes="180x180" href="favicon.ico">
-  <link rel="stylesheet" type="text/css" href="normalize.css2">
+  <link rel="stylesheet" type="text/css" href="normalize.css 2">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.ico">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.ico">
@@ -18,21 +18,29 @@
 </head>
 
 <body>
-  <header>About <nav>
-      <ul role="menubar">
-        <li role="presentation">
-          <a href="index.html" role="menuitem">Home</a>
-        </li>
-        <li role="presentation">
-          <a href="contact.html" role="menuitem">Contact</a>
-        </li>
-      </ul>
-    </nav>
+  
+ 
+<div id="container">
+  <div id="nav">
+  <ul>
+    <li>
+      <a href="index.html" role="menuitem" class="navigation-list_item navigation-list_item--active">Home</a>
+    </li>
+  
+    <li>
+      <a href="contact.html" role="menuitem" class="navigation-list_item navigation-list_item--active"
+        target="_blank">Contact Me</a>
+    </li>
+  </ul>
+</div>
+</div>
+
     <div>
-      <h2>My Skills</h2>
+    
     </div>
     <nav>
-      <ul role=" menubar">
+      <ul role=" menubar" class="cloud-front">
+        <li>My Skills</li>
         <li role=" presentation"> NODE.JS
         </li>
         <li role="presentation">React
@@ -43,58 +51,28 @@
         </li>
         <li role="presentation">CSS
         </li>
+        <li role="presentation">JavaScript</li>
       </ul>
     </nav>
 
-  </header>
-  <table>
-    <thead>
-      <tr>
-        <td>Skills</td>
-        <td>Years of Experience</td>
-        <td>Level of Expertise</td>
-      </tr>
-      <tr>
-        <td>HTML</td>
-        <td>3</td>
-        <td>Advanced</td>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>CSS</td>
-        <td>2</td>
-        <td>Intermediate</td>
-      </tr>
-      <tr>
-        <td>JavaScript</td>
-        <td>1</td>
-        <td>Beginner</td>
-      </tr>
-    </tbody>
-  </table>
-  <div>
-    <h1>About</h1>
-  </div>
+  
 
-  <div>
-    This is what I enjoy doing:
-  </div>
-  <div>
-    <ul>
+ 
+  <div class="container">
+    <ul class="about-ul">
+      <li>What I love</li>
       <li>Front-end development</li>
       <li>Back-end development</li>
       <li>Test driven development</li>
       <li>Creating Music, Writing, Reading and Hiking</li>
-    </ul>
+    </ul> 
   </div>
 
-  <div>
-    <a href="files/cv.pdf" class="button" download>Download my CV</a>
+  
 
-  </div>
+  <div> 
   <svg id="about-picture" xmlns="http://www.w3.org/2000/svg" class="berlin-illustration" height="auto"
-    viewBox="0 0 700 505" xmlns:xlink="http://www.w3.org/1999/xlink">
+    viewBox="0 0 2000 505" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
       <polygon id="a" points=".06 231.917 .06 .929 688.717 .929 688.717 231.917"></polygon>
     </defs>
@@ -1413,7 +1391,9 @@
       </path>
     </g>
   </svg>
+</div>
 
+  <p> <a href="files/cv.pdf" class="button" download>Download my CV</a></p>
 
 
 
